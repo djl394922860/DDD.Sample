@@ -43,7 +43,7 @@ namespace DDD.Sample.Tests
         [Fact]
         public async Task AddTest()
         {
-            var result = await _studentService.Add("xishuai3");
+            var result = await _studentService.Add("xishuai3333");
             Assert.True(result);
         }
 
